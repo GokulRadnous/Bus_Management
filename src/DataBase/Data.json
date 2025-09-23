@@ -1,0 +1,92 @@
+{
+  "Users": [
+    {
+      "id": "6940",
+      "name": "Gokul Soundar S",
+      "email": "gokulradnous18@gmail.com",
+      "phone": "9360276272",
+      "password": "Gokul@2001",
+      "confirmPassword": "Gokul@2001"
+    }
+  ],
+  "Admins": [
+    {
+      "id": "4318",
+      "name": "Indhuja v",
+      "email": "indhujavediyappan@gmail.com",
+      "phone": "7305522735",
+      "password": "Indhuja@2006",
+      "confirmPassword": "Indhuja@2006"
+    },
+    {
+      "id": "b482",
+      "name": "Gokul Soundar S",
+      "email": "gokulradnous18@gmail.com",
+      "phone": "9360276272",
+      "password": "Gokul@2001",
+      "confirmPassword": "Gokul@2001"
+    }
+  ],
+  "bus": [
+    {
+      "id": "8f5e",
+      "busName": "Ayanavaram",
+      "busNo": "23C",
+      "from": "Besant Nagar",
+      "to": "Ayanavaram",
+      "date": "2025-09-23",
+      "noOfSeats": "52",
+      "busImage": "https://mtcbus.tn.gov.in/asset/images/mini_banner3.jpg"
+    },
+    {
+      "id": "1a2b",
+      "busName": "Velachery Express",
+      "busNo": "12B",
+      "from": "T Nagar",
+      "to": "Velachery",
+      "date": "2025-09-08",
+      "noOfSeats": "50",
+      "busImage": "https://mtcbus.tn.gov.in/asset/images/mini_banner1.jpg"
+    },
+    {
+      "id": "2c3d",
+      "busName": "Adyar Connector",
+      "busNo": "21A",
+      "from": "Guindy",
+      "to": "Adyar",
+      "date": "2025-09-08",
+      "noOfSeats": "48",
+      "busImage": "https://mtcbus.tn.gov.in/asset/images/mini_banner2.jpg"
+    },
+    {
+      "id": "3e4f",
+      "busName": "Mount Road Local",
+      "busNo": "15C",
+      "from": "Egmore",
+      "to": "Mount Road",
+      "date": "2025-09-08",
+      "noOfSeats": "52",
+      "busImage": "https://mtcbus.tn.gov.in/asset/images/mini_banner3.jpg"
+    },
+    {
+      "id": "4g5h",
+      "busName": "Perambur Shuttle",
+      "busNo": "5D",
+      "from": "Perambur",
+      "to": "Chennai Central",
+      "date": "2025-09-08",
+      "noOfSeats": "55",
+      "busImage": "https://mtcbus.tn.gov.in/asset/images/mini_banner4.jpg"
+    },
+    {
+      "id": "5i6j",
+      "busName": "Tambaram Express",
+      "busNo": "45F",
+      "from": "Tambaram",
+      "to": "Chennai Egmore",
+      "date": "2025-09-08",
+      "noOfSeats": "50",
+      "busImage": "https://mtcbus.tn.gov.in/asset/images/mini_banner3.jpg"
+    }
+  ]
+}

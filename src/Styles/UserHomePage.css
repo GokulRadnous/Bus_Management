@@ -1,0 +1,13 @@
+/* UserHomePage.css */
+
+.page-background {
+  height: 100vh; /* full viewport height */
+  width: 100%;
+  background-image: url(https://mtcbus.tn.gov.in/asset/images/bg2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* Optional - apply overlay tint */
+  position: relative;
+}
+

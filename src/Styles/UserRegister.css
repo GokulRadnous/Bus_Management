@@ -1,0 +1,47 @@
+.user-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://mtcbus.tn.gov.in/asset/images/bg2.jpg)
+    no-repeat center center/cover;
+  position: relative;
+}
+
+.register-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  width: 380px;
+  text-align: center;
+}
+
+.register-card h1 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.form-grid {
+  display: grid;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.form-actions button {
+  width: 100%;
+  padding: 10px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-actions button:hover {
+  background: #005fa3;
+}
+
+.login-link {
+  margin-top: 15px;
+}

@@ -1,0 +1,113 @@
+.bus-detail-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 40px 40px;
+  border-radius: 16px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  transition: box-shadow 0.3s ease;
+}
+
+.bus-detail-container:hover {
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail {
+  flex: 1 1 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.bus-detail-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+.details {
+  flex: 2 1 420px;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+.detail-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #0d47a1;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 3px solid #1976d2;
+  padding-bottom: 8px;
+}
+
+.details p {
+  font-size: 1.1rem;
+  margin: 16px 0;
+  font-weight: 600;
+}
+
+.in-stock {
+  color: #388e3c;
+  font-weight: 700;
+  background: #d0f0c0;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(56, 142, 60, 0.3);
+}
+
+.out-stock {
+  color: #d32f2f;
+  font-weight: 700;
+  background: #f8d7da;
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(211, 47, 47, 0.3);
+}
+
+.btn.back-btn {
+  margin-top: 35px;
+  padding: 14px 36px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #045de9, #09c6f9);
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(9, 198, 249, 0.5);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.btn.back-btn:hover {
+  background: linear-gradient(90deg, #09c6f9, #045de9);
+  box-shadow: 0 12px 30px rgba(4, 93, 233, 0.8);
+}
+
+@media (max-width: 720px) {
+  .bus-detail-container {
+    flex-direction: column;
+    padding: 30px 20px;
+    max-width: 90vw;
+  }
+  .thumbnail,
+  .details {
+    max-width: 100%;
+  }
+}

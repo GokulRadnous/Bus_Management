@@ -1,0 +1,124 @@
+/* Page layout */
+.user-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://mtcbus.tn.gov.in/asset/images/bg2.jpg)
+    no-repeat center center/cover;
+  position: relative;
+}
+
+/* Overlay for better text visibility */
+.user-login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+/* Login card */
+.login-card {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.login-card h1 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color: #0078d7;
+}
+
+.login-card p {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Form grid */
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.form-grid label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.form-grid input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.form-grid input:focus {
+  border-color: #0078d7;
+  box-shadow: 0px 0px 6px rgba(0, 120, 215, 0.5);
+}
+
+/* Buttons */
+.form-actions {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.form-actions button {
+  padding: 10px 25px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-actions button:hover {
+  background-color: #1e7e34;
+}
+
+/* Register link */
+.register-link {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.register-link a {
+  color: #0078d7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
